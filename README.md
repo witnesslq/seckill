@@ -3,6 +3,12 @@
 
 #框架:
  spring + spring mvc + mybatis
+
+#前端样式
+ bootstrap+jquery
+ ##前端插件
+    --jquery.cookie
+    --jquery.countdown
  
 
 ###项目运行前,请先根据sql/schema.sql 文件生成表结构
