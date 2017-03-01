@@ -19,7 +19,7 @@ import java.util.Date;
 public class Seckill {
     private Long seckillId;
     private String name;
-    private Integer num;
+    private Integer number;
     private Date startTime;
     private Date endTime;
     private Date createTime;
@@ -29,7 +29,7 @@ public class Seckill {
         return "Seckill{" +
                 "seckillId=" + seckillId +
                 ", name='" + name + '\'' +
-                ", num=" + num +
+                ", number=" + number +
                 ", startTime=" + startTime +
                 ", endTime=" + endTime +
                 ", createTime=" + createTime +

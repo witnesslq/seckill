@@ -39,4 +39,14 @@ public class SeckillExecution implements Serializable{
         this.state = seckillStatEnum.getState();
         this.stateInfo = seckillStatEnum.getStateInfo();
     }
+
+    @Override
+    public String toString() {
+        return "SeckillExecution{" +
+                "seckillId=" + seckillId +
+                ", state=" + state +
+                ", stateInfo='" + stateInfo + '\'' +
+                ", successKilled=" + successKilled +
+                '}';
+    }
 }
