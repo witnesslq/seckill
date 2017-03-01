@@ -14,4 +14,4 @@
      返回类型(return 类型/异常)
   
 #前端页面流程
-    ![image](http://github.com/fimi2008/seckill/raw/master/images-folder/lc.png)
+   ![image](http://github.com/fimi2008/seckill/raw/master/images-folder/lc.png)
