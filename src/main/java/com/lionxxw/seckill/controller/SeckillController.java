@@ -119,14 +119,14 @@ public class SeckillController {
             result = new SeckillResult<SeckillExecution>(true, seckillExecution);
         } catch (SeckillCloseException e1) {
             seckillExecution = new SeckillExecution(seckillId, SeckillStatEnum.END);
-            result = new SeckillResult<SeckillExecution>(false, seckillExecution);
+            result = new SeckillResult<SeckillExecution>(true, seckillExecution);
         } catch (RepeatKillException e2) {
             seckillExecution = new SeckillExecution(seckillId, SeckillStatEnum.REPEAT);
-            result = new SeckillResult<SeckillExecution>(false, seckillExecution);
+            result = new SeckillResult<SeckillExecution>(true, seckillExecution);
         } catch (SeckillException e) {
             logger.error(e.getMessage(), e);
             seckillExecution = new SeckillExecution(seckillId, SeckillStatEnum.INNER_ERROR);
-            result = new SeckillResult<SeckillExecution>(false, seckillExecution);
+            result = new SeckillResult<SeckillExecution>(true, seckillExecution);
         }
         return result;
     }
@@ -136,6 +136,7 @@ public class SeckillController {
      * @return
      */
     @RequestMapping(value = "/time/now", method = RequestMethod.GET)
+    @ResponseBody
     public SeckillResult<Long> time(){
         return new SeckillResult<Long>(true, System.currentTimeMillis());
     }
