@@ -35,7 +35,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h3 class="modal-title text-center">
-                    <span class="glyphicon glyphiocn-phone"></span>
+                    <span class="glyphicon glyphicon-phone"></span>
+                    秒杀手机
                 </h3>
             </div>
             <div class="modal-body">
