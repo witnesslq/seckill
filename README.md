@@ -6,6 +6,9 @@
  
 
 ###项目运行前,请先根据sql/schema.sql 文件生成表结构
+
+## 温故而知新,重复下spring mvc的运行流程
+![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/springmvc.png)
  
 #业务接口:站在"使用者"角度设计接口
     三个方面:
