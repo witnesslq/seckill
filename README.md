@@ -16,3 +16,6 @@
 #前端页面流程
 ![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/lc.png)
 ![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/lc2.png)
+
+#Restful api 接口设计
+![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/restful.png)
