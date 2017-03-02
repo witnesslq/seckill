@@ -43,4 +43,11 @@
         <!--给出需要扫描Dao接口包-->
         <property name="basePackage" value="com.lionxxw.seckill.dao"/>
     </bean>
+
+    <!--redis缓存dao注入-->
+    <bean id="redisDao" class="com.lionxxw.seckill.dao.cache.RedisDao">
+        <constructor-arg index="0" value="192.168.170.129"/>
+        <constructor-arg index="1" value="6379" type="int"/>
+        <constructor-arg index="2" value="123"/>
+    </bean>
 </beans>

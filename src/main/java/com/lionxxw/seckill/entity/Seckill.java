@@ -3,6 +3,7 @@ package com.lionxxw.seckill.entity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -16,7 +17,8 @@ import java.util.Date;
  */
 @Getter
 @Setter
-public class Seckill {
+public class Seckill implements Serializable {
+    private static final long serialVersionUID = 6922564193205717494L;
     private Long seckillId;
     private String name;
     private Integer number;
