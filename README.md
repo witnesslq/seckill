@@ -46,6 +46,6 @@
         
 #优化处理
     1.使用redis缓存,减少获取秒杀地址接口对mysql数据库的压力
-    2.更改业务流程,减少rowLock的占用时间
+    2.更改业务流程,减少rowLock的占用时间(秒杀业务改用存储过程)
 ![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/yhbefore.png)
 ![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/yhafter.png)
