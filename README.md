@@ -28,3 +28,16 @@
 
 #Restful api 接口设计
 ![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/restful.png)
+
+#秒杀优化
+##存在性能瓶颈的地方
+![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/problem.png)
+    *红色部分代表可能出现高并发的点
+  
+##其他方案
+![image](https://raw.githubusercontent.com/fimi2008/seckill/master/images-folder/other.png)
+    成本分析:
+        *运维成本和稳定型:NoSQL,MQ等
+        *开发成本:数据一致性,回滚方案等
+        *幂等性难保证:重复秒杀问题
+        *不适合新手的架构
